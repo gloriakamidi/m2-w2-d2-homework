@@ -4,7 +4,9 @@
     <title>Great Cliffs of California</title>
 
     <!-- Meta Tags -->
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+
     
     <!-- Bootstrap CSS -->
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,6 +19,21 @@
     >
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
+    <style>
+       .grid_system  div[class^="col-sm-6"] {
+            border: 1px solid lightgrey;
+            background: auto;
+            text-align: left;
+           
+            
+         } 
+         /* padding-top: 5px;
+            padding-bottom: 5px;
+            column-gap: 10rem; */ 
+         
+
+
+    </style>
     
   </head>
   <body id="home">
@@ -27,7 +44,7 @@
             <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
         </div>
         
-        <nav class="main-menu navbar navbar-expand-lg navbar-light">
+        <nav class="main-menu navbar navbar-expand-lg navbar-light bg-light">
            <a class="navbar-brand" href="#"></a>
            <!--Hamburger Menu-->
           <!--Make a collapse menu button-->
@@ -61,31 +78,39 @@
     </header>
 
     <main>
-      <div>
-        <h1>Introducing California's Greatest Cliffs</h1>
-          <div>
-            <h2>What is so unique about California cliffs?</h2>
-            <p>
-              California cliffs are one of a kind in the United States where
-              no cliffs are as manificent and beautiful as them. And
-              California is the only state that have cliffs that fronts all
-              possible environments: sea, river, mountains and canyons. There
-              are four such individual unique cliffs: West Cliff, North Cliff,
-              East Cliff and South Cliff. All offer fantastic overlooking
-              views, recreational areas, camping sites, wildlife watch spots
-              and overnight cabins.
-            </p>
+    <div class="grid_system">
+        <div class="row">
+          <div class="col-sm-12" style="text-align:center;">
+           <h1>Introducing California's Greatest Cliffs</h1>
           </div>
-      </div>
+        </div>
+        <div class="row">
+              <div class="col-sm-6">
+                <h2>What is so unique about California cliffs?</h2>
+                  <p>
+                    California cliffs are one of a kind in the United States where
+                    no cliffs are as manificent and beautiful as them. And
+                    California is the only state that have cliffs that fronts all
+                    possible environments: sea, river, mountains and canyons. There
+                    are four such individual unique cliffs: West Cliff, North Cliff,
+                    East Cliff and South Cliff. All offer fantastic overlooking
+                    views, recreational areas, camping sites, wildlife watch spots
+                    and overnight cabins.
+                  </p>
+            </div>   
+        
  
-      <div>
-        <h2>Where are these cliffs?</h2>
-        <p>
+     
+        <div class="col-sm-6">
+          <h2>Where are these cliffs?</h2>
+          <p>
           Located within a 100 mile radius from Irvine, California, they
           can be reached by roads easily. The closest cliff to Irvine is
           West Cliff, which is the most popular and most visited.
-        </p>
+         </p>
+        </div>
       </div>
+    </div>
     </main>
     
     <section>
