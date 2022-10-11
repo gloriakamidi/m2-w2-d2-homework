@@ -144,22 +144,26 @@ footer #nondisclaimer .social .fa-instagram {
 }
 
 /* Home */
+/* .navbar {
+  opacity: 80%; 
+}
 .navbar-toggler-icon {
     
-    opacity: 80%;
+    opacity: 100%;
     color: lightgrey;
     
 }
 .main-menu navbar navbar-expand-lg navbar-light bg-light {
     width: fit-content;
-}
+    padding: 0%;
+} */
 
 
 
 /* ACTIVATE BELOW WHEN TESTING NAVIGATION AND OTHERS FOR RWD */
 
 /* Media Queries */
-/*@media (max-width: 768px) {
+/@media (max-width: 768px) {
     footer #nondisclaimer .copy {
         padding: 3.5em 0em 3.5em 0em;
         text-align: center;
@@ -178,12 +182,15 @@ footer #nondisclaimer .social .fa-instagram {
     .logo img {
         position: relative;
         bottom: 8px;
+        padding: 25px;
     }
     .main-menu {
         width: 200px;
-        background-color:rgb(255, 255, 255);
-        position: absolute;
+       background-color:rgb(255, 255, 255); 
+        position: relative;
+        float: right;
         right: 1.7em;
+
       }
       .main-menu ul li {
         border-bottom: 1px solid rgba(202, 204, 202, 0.6);
@@ -196,5 +203,6 @@ footer #nondisclaimer .social .fa-instagram {
         padding: 25px;
         min-height: 450px;
         margin-top: 1em;
+        
       }
 } */
