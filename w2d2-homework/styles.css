@@ -205,4 +205,8 @@ footer #nondisclaimer .social .fa-instagram {
         margin-top: 1em;
         
       }
-} */
+} 
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
